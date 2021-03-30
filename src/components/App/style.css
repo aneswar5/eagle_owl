@@ -1,0 +1,106 @@
+
+
+body{
+    background-color: #eeeeee !important;
+}
+.card_title{
+    background-color: #f4f4f8;
+    text-align: center;
+    color: #b0bdc7;
+    padding: 3px;
+    font-size: 15px;
+}
+.circle_progress_high{
+    width: 50%;
+}
+.circle_progress_low{
+    width: 50%;
+}
+.circle_progress_high .CircularProgressbar .CircularProgressbar-path{
+    stroke: #0d933a !important;
+}
+.circle_progress_high .CircularProgressbar .CircularProgressbar-text{
+    fill: #0d933a !important;
+}
+.circle_progress_low .CircularProgressbar .CircularProgressbar-path{
+    stroke: #e72926 !important;
+}
+.circle_progress_low .CircularProgressbar .CircularProgressbar-text{
+    fill: #e72926 !important;
+}
+.arrow_up{
+    color: #0d933a;
+    /* border-top: 1px solid #ccc; */
+    /* width: 41%; */
+    margin-bottom: 22px;
+    font-size: 17px;
+    text-align: center;
+}
+.arrow_down{
+    color: #e72926;
+    margin-bottom: 22px;
+    font-size: 17px;
+    text-align: center;
+}
+.fluctuating{
+    border-top: 1px solid #ccc;
+    width: 50%;
+}
+.tabs_active {
+    background-color: aqua;
+}
+.tabs_inactive {
+    background-color: #f4f8fc;
+}
+.tab_style{
+    cursor: pointer;
+    transform: skewX(15deg);
+    font-size: 13px;
+    font-weight: 500;
+}
+tr:nth-child(even) {
+    background-color: #f5f4f9;
+}
+tr th{
+    background-color: #94b3f5;
+    color: #e5edfd;
+    font-size: 12px;
+}
+@media (min-width: 320px) and (max-width: 1024px) {
+    .tbl_res {
+      overflow-x: auto;
+
+    }
+}
+.barge_1 {
+    background-color: #f5f4d1 !important;
+    color: #8d968c !important;
+    font-size: 10px !important;
+    padding: 7px !important;
+    border-radius: 14px !important;
+}
+.barge_2 {
+    background-color: #f8f4ab !important;
+    color: #8d968c !important;
+    font-size: 10px !important;
+    padding: 7px !important;
+    border-radius: 14px !important;
+}
+.tbl_res{
+    width: 100% !important;
+}
+.tbl_res .bootstrap-table{
+    width: 100% !important;
+    margin: 10px;
+}
+.small_tag small{
+    font-size: 12px !important;
+}
+
+.tbl_res button{
+    border:1px solid #ccc
+}
+
+.tbl_res .caret{
+    display: none;
+}
